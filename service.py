@@ -9,7 +9,7 @@ st.title("🛠️ Service Scheduler with OR-Tools and Google Maps (Normalized Co
 # Sidebar config
 # api_key = st.sidebar.text_input("Google Maps API Key", type="password")
 
-api_key = st.secrets['GOGLE_MAPS_API']
+api_key = st.secrets['GOOGLE_MAPS_API']
 skill_weight = st.sidebar.slider("Skill Mismatch Weight", 1, 10, 3)
 time_weight = st.sidebar.slider("Travel Time Weight", 1, 10, 1)
 max_customers_per_rep = st.sidebar.number_input("Max Customers Per Rep", min_value=1, max_value=10, value=3)
